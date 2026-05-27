@@ -1,0 +1,11 @@
+#!/bin/bash
+# bash 산술 연산을 사용한 add 프로그램
+
+sum=0
+
+for i in "$@"
+do
+    (( sum += i ))   # bash 내장 산술 연산
+done
+
+echo $sum

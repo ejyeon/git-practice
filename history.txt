@@ -1,0 +1,823 @@
+    1  $ date
+    2  date
+    3  clear
+    4  cal
+    5  cal april
+    6  passwd
+    7  save setup
+    8  manual
+    9  man
+   10  manu
+   11  cal
+   12  date
+   13  clear
+   14  date
+   15  cal
+   16  clear
+   17  cal 5 2026
+   18  cal 2o26
+   19  cal 2026
+   20  clear
+   21  who
+   22  clear
+   23  whoami
+   24  who am i
+   25  users
+   26  w
+   27  user
+   28  clear
+   29  -help
+   30  help
+   31  man
+   32  clear
+   33  man scanf
+   34  exit
+   35  date
+   36  cal
+   37  last
+   38  last u21240628
+   39  whoami
+   40  who
+   41  users
+   42  -help
+   43  --help
+   44  -h
+   45  man
+   46  man passwd
+   47  stty-a
+   48  stty -a
+   49  last u21240628
+   50  var
+   51  var -h
+   52  var log
+   53  varlog
+   54  /var
+   55  /var log
+   56  /var/log
+   57  last u21240628
+   58  ls
+   59  ls/usr
+   60  /ls
+   61  /is
+   62  last u21240628
+   63  -l
+   64  ls -la
+   65  cat
+   66  cat->lyrics
+   67  cat -> lyrics
+   68  last u21240628
+   69  ls
+   70  ls/ -F /usr
+   71  ls -F/usr
+   72  ls -f / usr
+   73  clear
+   74  ls
+   75  ls -a
+   76  ls -la
+   77  last u21240628
+   78  cat lyrics
+   79  cat
+   80  clear
+   81  man cat
+   82  cat -n lyrics
+   83  exit
+   84  cat lyrics
+   85  cat
+   86  cat >lyrics
+   87  cat lyrics
+   88  cat -n lyrics
+   89  clear
+   90  less/etx/protocols
+   91  less/etc/protocols
+   92  man cat
+   93  less /tec/protocols
+   94  more /etc/protocols
+   95  head file
+   96  head hello
+   97  head cat
+   98  cat lyrics
+   99  tail -f file
+  100  cd log
+  101  /var
+  102  clear
+  103  cat lyrics
+  104  wc lyrics
+  105  rm -i lyrics
+  106  last u21240628
+  107  cd..
+  108  cd ..
+  109  ls -a
+  110  ls -i
+  111  ls
+  112  whomi
+  113  whoami
+  114  date
+  115  cal
+  116  ls
+  117  ls xyz
+  118  ls aaa zyx
+  119  ls xyz aaa
+  120  ls -ls
+  121  ls- la
+  122  ls -la
+  123  cat -n lyrics
+  124  head lyrics
+  125  mkdir newdir
+  126  rmidir olddir
+  127  rmdir olddir
+  128  rmdir newdir
+  129  cd lyrics ccc
+  130  cat lyrics
+  131  cd aaa ccc
+  132  rm i- file aaa
+  133  rm -i aaa
+  134  cat aaa
+  135  ls -l
+  136  ls -a
+  137  cd lyrics aaa
+  138  cp lyrics aaa
+  139  cp lyrics ccc
+  140  cat f
+  141  ls -a
+  142  cp -i aaa bbb
+  143  ls -a
+  144  rm -i bbb
+  145  ls -a
+  146  rm -i bbb
+  147  ls -
+  148  ls -a
+  149  wc aaa
+  150  wc -l lyrics
+  151  ls -l
+  152  ls -la
+  153  file lyrics
+  154  ln lyrics fast
+  155  ls -l
+  156  drwxr - xr - x
+  157  drwxr
+  158  groups
+  159  chgrp cte lyrics
+  160  ..
+  161  ls
+  162  ls/usr
+  163  ls /usr
+  164  ls -la
+  165  cat lyrics
+  166  cat > lyrics 
+  167  cat lyrics
+  168  wc happy
+  169  wc lyrics
+  170  cat lyrics
+  171  cat >lyrics
+  172  cat lyrics
+  173  In lyrics aaa
+  174  ln lyrics aaa
+  175  cat aaa
+  176  ls-a
+  177  ls - la
+  178  ls-la
+  179  ls-a
+  180  ls-l
+  181  is-i
+  182  ls -L
+  183  ls -l
+  184  rm lyrics
+  185  cat aaa
+  186  ls- l
+  187  ls -l
+  188  cat lyrics
+  189  ln aaa lyrics
+  190  cat lyrics
+  191  ls -l
+  192  scrpit
+  193  script
+  194  script -a
+  195  chmod 600 typescript
+  196  mv typescript u21240628-2
+  197  ls -la
+  198  script -a
+  199  ls -la
+  200  script u21240628-2 -a
+  201  cal
+  202  script -a
+  203  script -a u21240628-2
+  204  who
+  205  ls -ld /tmp
+  206  ls /tmp
+  207  vi heart
+  208  cal
+  209  cp u21240628-2 ~cslab/hw2
+  210  script -a u21240628-2
+  211  file u21240628-2
+  212  user
+  213  usr
+  214  who
+  215  clear
+  216  chsh -l
+  217  chsh -i
+  218  chsh --l
+  219  man chsh
+  220  ckear
+  221  clear
+  222  chsh -l
+  223  csh
+  224  logout
+  225  vi 
+  226  echo helo linux
+  227  echo -n hi
+  228  echo " hello Linux "
+  229  echo $path
+  230  echo $PATH
+  231  command /dev/null
+  232  data>hi
+  233  data>>bue
+  234  command >>mm
+  235  hi im jy
+  236  command >>mm
+  237  hello
+  238  command <<mm
+  239  hi
+  240  hello
+  241  mm
+  242  ls
+  243  wc 
+  244  wc
+  245  wc -w
+  246  ls | wc-w
+  247  ls
+  248  ls |wc -w
+  249  who
+  250  who | wc -l
+  251  clear
+  252  ls -l /bin
+  253  ls -a /usr/bin | more
+  254  clear
+  255  ls | wc -w
+  256  |tee lsout | wc -w
+  257  ls | tee | lsout | wc -w
+  258  ls -C
+  259  script u21240628-3a
+  260  ls -C
+  261  script -a u21240628-3a
+  262  ls
+  263  echo h*
+  264  echo ?
+  265  echo ???
+  266  echo ??
+  267  echo [m]
+  268  echo z
+  269  echo z*
+  270  clear
+  271  bc
+  272  vi arg.c
+  273  cat arg.c
+  274  cc arg.c -o arg
+  275  ./arg a b c d e f g
+  276  cc arg.c -o arg
+  277  vi
+  278  who
+  279  ls -a
+  280  bash vi test.txt
+  281  vi
+  282  vi hw-prac
+  283  ls -a
+  284  rm -i u21240628-3a
+  285  ls -a
+  286  vi hw3
+  287  ls -a
+  288  vi hw3
+  289  mw hw3.txt u21240628-3a
+  290  mv hw3.txt u21240628-3a
+  291  mv hw3 u21240628-3a
+  292  mv part.txt u21240628-3b
+  293  vi u21240628-3b
+  294  cp u21240628-3? ~cslab/hw3
+  295  vi u21240628-3a
+  296  vi u21240628-3b
+  297  ls
+  298  vi u21240628-3a
+  299  cd ~cslab/hw3
+  300  ls
+  301  cd ls
+  302  cd ~
+  303  pwd
+  304  chmod 600 u21240628-3a
+  305  chmod 600 u21240628-3b
+  306  ls -l
+  307  cd ~cslab/hw2
+  308  ls
+  309  cd~
+  310  cd ~
+  311  cd ~cslab/hw3
+  312  ls -l ~cslab/hw3
+  313  cat u20213016-3a
+  314  cd ~
+  315  vi u21240628-3a
+  316  cp u21240628-2a ~cslab/hw3
+  317  cp u21240628-3a ~cslab/hw3
+  318  cd ~cslab/hw3
+  319  cat u21240628-3a
+  320  cd `
+  321  q
+  322   cd ~
+  323  cd ~cslab/hw3
+  324  cat u21240628-3a
+  325  cd u212240628-3b
+  326  cat u21240628-3b
+  327  cd ~
+  328  exit
+  329  who
+  330  ls -a
+  331  rm -i aaa
+  332  ls -a
+  333  rm -i ccc
+  334  rm -a bue
+  335  rm -i bue
+  336  ls -a
+  337  cd ~linux
+  338  cd linux
+  339  sleep 10
+  340  sleep 10 &
+  341  bc &
+  342  ps
+  343  fg
+  344  bc
+  345  clear
+  346  strace ./filecopy
+  347  vi filecopy.c
+  348  cc filecopy.c
+  349  ./a.out
+  350  cc filecopy.c
+  351  vi filecopy.c
+  352  cc filecopy.c
+  353  ./a.out
+  354  cc filecopy.c -o filecopy
+  355  cc filecopy -o filecopy
+  356  ./filecopy
+  357  ls -a
+  358  bash
+  359  cc filecopy.c -o filecopy
+  360  vi filecopy.c
+  361  cc filecopy.c -o filecopy
+  362  echo "hello os lecture" > original.txt
+  363  ./filecopy
+  364  cat copy.txt
+  365  vi filecopy.c
+  366  strace ./filecopy
+  367  clear
+  368  strace ./filecopy
+  369  clear
+  370  strace ./filecopy
+  371  strace ./filecopy 2>&1 \ grep -E "openat\read\write\close"
+  372  clear
+  373  strace ./filecopy
+  374  clear
+  375  vi filecpoy.c
+  376  cc filecopy.c -o filecopy
+  377  echo "hello os lecture" > origina.txt
+  378  ./filecopy
+  379  cat copy.txt
+  380  clear
+  381  bash
+  382  clear
+  383  ps -ef
+  384  ps -f
+  385  clear
+  386  kill %1
+  387  kill -l
+  388  kill -9
+  389  clear
+  390  env
+  391  echo $PATH
+  392  clear
+  393  ls
+  394  cd ..
+  395  ls
+  396  clear
+  397  ls
+  398  cd ..
+  399  ls
+  400  cd ^
+  401  cd ^D
+  402  cd ^d
+  403  cd 
+  404  ls
+  405  cd ~cslab
+  406  ls
+  407  ls -a
+  408  cd
+  409  clear
+  410  echo date
+  411  echo 'date'
+  412  echo Today is 'date'
+  413  date
+  414  echo Today is 'date'
+  415  who
+  416  echo 현재 사용자 수는 'who|wc -l' 입니다
+  417  칟ㅁㄱ
+  418  clear
+  419  'date 'date'
+  420  date
+  421  echo 'date'
+  422  echo $(date)
+  423  echo Today is $(date)
+  424  echo 나는 `who|wc-l`명과 공부한다
+  425  나는 `who|wc -l`과 공부한다
+  426  echo `who|wc -l`과 공부중
+  427  expr 1+4
+  428  expr 1 + 2
+  429  date +%y
+  430  cc newproc.c -o newproc
+  431  ./newproc
+  432  nano newproc.c
+  433  nano concurrent.c
+  434  cc concurrent.c -o concurrent.c
+  435  cc concurrent.c -o concurrent
+  436  ./concurrent
+  437  vi newproc.c
+  438  ls -a
+  439  cc newproc. -o newproc
+  440  cc newproc.c -o newproc
+  441  ls -l
+  442  cc newproc.c -o newproc
+  443  bash
+  444  nano newproc.c
+  445  ls
+  446  bash
+  447  cat no_exist_file.txt || echo "파일을 읽는 데 실패"
+  448  ls -a
+  449  vi arg.c
+  450  cc arg.c -o arg
+  451  ./arg a*
+  452  cc arg.c -o arg
+  453  a/arg b?
+  454  clear
+  455  # 1. 현재 날짜와 시간을 timerecord 파일에 덮어쓰기로 저장
+  456  date > timerecord
+  457  # 2. timerecord 파일 내용 확인
+  458  cat timerecord
+  459  # 3. 현재 날짜와 시간을 thercord 파일에 추가하기로 저장
+  460  date >> thercord
+  461  # 4. thercord 파일 내용 확인
+  462  cat thercord
+  463  bash
+  464  ls p??? /bin/p???
+  465  claer
+  466  clear
+  467  touch testfile.txt
+  468  cat testfile.txt
+  469  echo $?
+  470  clear
+  471  cat no_exist_file.txt
+  472  echo $?
+  473  clear
+  474  bash
+  475  [200~# 1. 현재 날짜와 시간을 timerecord 파일에 덮어쓰기로 저장
+  476  date > timerecord
+  477  # 2. timerecord 파일 내용 확인
+  478  cat timerecord
+  479  # 3. 현재 날짜와 시간을 thercord 파일에 추가하기로 저장
+  480  date >> thercord
+  481  # 4. thercord 파일 내용 확인
+  482  cat thercord
+  483  clear
+  484  bash
+  485  date > timerecord
+  486  cat timerecord
+  487  date >> thercord
+  488  cat thercord
+  489  clear
+  490  echo 'Hello <your> & [my]'
+  491  clear
+  492  echo "scale=30; 5/7" | bc
+  493  clear
+  494  bc << EOF
+  495  scale=30
+  496  5/7
+  497  EOF
+  498  clear
+  499  ls a* /bin/a*
+  500  clear
+  501  ls *[a-k] /bin/*[a-k]
+  502  clear
+  503  ls p??? /bin/p???
+  504  bash
+  505  alias
+  506  ls
+  507  ls --color --auto
+  508  ls --color -auto
+  509  ls -alf
+  510  clear
+  511  cd
+  512  ls -a
+  513  alias
+  514  clear
+  515  la
+  516  vi .bash_profile
+  517  vi .bashrc
+  518  clear
+  519  history
+  520  echo %ps1
+  521  fc -l
+  522  passwd
+  523  date
+  524  cal
+  525  cal -3
+  526  clear
+  527  bz<tab>
+  528  ls
+  529  vi shm-producer.c
+  530  vi shm-consumer.c
+  531  bash gcc shm-producer.c -o shm-producer -lrt
+  532  gcc shm-consumer.c -o shm-consumer -lrt
+  533  bash
+  534  gcc shm-producer.c -o shm-producer -lrt
+  535  gcc shm-consumer.c -o shm-consumer -lrt
+  536  bash
+  537  ./shm-producer
+  538  ./shm-consumer
+  539  vi msg-send.c
+  540  bash
+  541  gcc msg-send.c -o msg-send
+  542  ./msg-send
+  543  bash
+  544  ./msg-receive
+  545  clear
+  546  vi msg-receive.c
+  547  gcc msg-receive.c -o msg-receive
+  548  vi msg-receive.c
+  549  gcc msg-receive.c -o msg-receive
+  550  ./msg-receive
+  551  ipcs-q
+  552  ipcs -q
+  553  vi msg-receive.c
+  554  bash
+  555  ./msg-receive.c
+  556  gcc msg-receive.c -o msg-receive
+  557  bash
+  558  ./msg-receive
+  559  vi msg-receive.c
+  560  bash
+  561  gcc msg-receive.c -o msg-receive
+  562  bash
+  563  gcc msg-receive.c -o msg-receive
+  564  bash
+  565  ./msg-receive
+  566  bash
+  567  ./msg-receive
+  568  vi msg-receive.c
+  569  bash
+  570  ./msg-receive
+  571  vi msg-receive.c
+  572  bash
+  573  sleep 1000&
+  574  kill -STOP %1
+  575  fg %1
+  576  kill %1
+  577  vi ~/,bashrc
+  578  vi ~/ .bashrc
+  579  vi ~/ .bachrc
+  580  sudo vi .bashrc
+  581  vi ~/ /bashrc
+  582  echo $PATH
+  583  ps
+  584  clear
+  585  ps
+  586  echo $$
+  587  Sclear
+  588  clear
+  589  bash
+  590  vi ~/. bashrc
+  591  bash
+  592  vi ~/. bashrc
+  593  vi .bashrc
+  594  source ~/.bashrc
+  595  vi .bashrc
+  596  source ~/ .bashrc
+  597  ll
+  598  c
+  599  clear
+  600  c
+  601  vi .bashrc
+  602  source ~/.bashrc
+  603  ll
+  604  c
+  605  vi .bashrc
+  606  ll
+  607  h
+  608  clear
+  609  cat<<EOF
+  610  이름: 이정연 학번: 2021240628
+  611  EOF
+  612  echo "u21240628: $USER"
+  613  echo "날짜: $(date)"
+  614  echo "현재 사용자 수:$(who|wc -l) 명"
+  615  echo "숨겨진 파일 목록:.*"
+  616  echo "첫번째 인수: $1"
+  617  vi hw15.sh
+  618  chmod +x hw15.sh
+  619  ./hw15.sh 반갑습니다
+  620  histsize
+  621  HISTSIZE
+  622  history
+  623  vi .bashrc
+  624  echo $HISTSIZE
+  625  dirs
+  626  vi script1
+  627  chmod +x script1
+  628  ./script1
+  629  vi script5
+  630  cat script5
+  631  chmod +x script5
+  632  ./script5
+  633  ./script5 >out1
+  634  sort who
+  635  sort file
+  636  sort aaa
+  637  clear
+  638  vi trdata
+  639  cat trdata
+  640  vi trdata
+  641  cat trdata
+  642  bc
+  643  ls -la
+  644  ls -a
+  645  ~home
+  646  ~u21240628
+  647  ls | wc -w
+  648  ps
+  649  ps -f
+  650  ps -ef
+  651  jobs
+  652  %2
+  653  history
+  654  PS1="\!$"
+  655  .bash_profile
+  656  h
+  657  ls -la
+  658  ls -a
+  659  vi script1
+  660  vi fast
+  661  ls *p??? /bin /p???
+  662  ls *a /bin *a
+  663  ls a*/bin/a*
+  664  ls a* /bin /a*
+  665  ls a*/bin/a*
+  666  ls a* /bin/a*
+  667  ls *[a-k] /bin/*[a-k]
+  668  ls p??? /bin/p???
+  669  cat testfile.tct
+  670  cat testfile.txt
+  671  echo $?
+  672  cat no_file.txt
+  673  vi arg.c
+  674  cat > poem.txt
+  675  Well you know it's your bedtime,
+  676  So turn off the light,
+  677  Say all your prayers and then,
+  678  Oh you sleepy young heads dream of wonderful things, 
+  679  Beautiful mermaids will swim through the sea, 
+  680  And you will be swimming there too.
+  681   clear
+  682  sort -t: -k5 /etc/passwd
+  683  bash
+  684  cat > score
+  685  Kim_Chulsoo 80 90 85
+  686  Lee_Younghee 95 100 90
+  687  Park_Minsoo 70 8 60
+  688  Hong_Gildong 85 9 75
+  689  Choi_Soojin 90 85 95
+  690  Jung_Hoon 65 70 80
+  691  Kang_Jiwon 100 95 100
+  692  Yoon_Seo 75 80 70
+  693  Im_Nayeon 88 15 92
+  694  Han_Jinho 92 85 88
+  695  bash
+  696  cat > score
+  697  Kim_Chulsoo 80 90 85
+  698  Lee_Younghee 95 100 90
+  699  Park_Minsoo 70 8 60
+  700  Hong_Gildong 85 9 75
+  701  Choi_Soojin 90 85 95
+  702  Jung_Hoon 65 70 80
+  703  Kang_Jiwon 100 95 100
+  704  Yoon_Seo 75 80 70
+  705  Im_Nayeon 88 15 92
+  706  Han_Jinho 92 85 88
+  707  bash
+  708  cat
+  709  bash
+  710  cat > score
+  711  clear
+  712  cat>score
+  713  clear
+  714  ls score
+  715  l score
+  716  clear
+  717  bash
+  718  cat > poem.txt
+  719  clear
+  720  grep '\.' poem.txt
+  721  clear
+  722  egrep 'im?ing' poem.txt
+  723  cat poem.txt
+  724  cat > score
+  725  sort score
+  726  sort -n -k3 score
+  727  sort -n -k3 -k2 score
+  728  clear
+  729  sort -n -k3 -k2 score
+  730  sort score | column -t
+  731  clear
+  732  sort score | column -t
+  733  clear
+  734  bash
+  735  clear
+  736  bash
+  737  cut -d':' -f3 score2
+  738  clear
+  739  cut -d':' -f3 score2 | sort | uniq
+  740  clear
+  741  find /bin -type l
+  742  clear
+  743  find /bin -type l | xargs -n 1 basename | xargs echo
+  744  bash score.txt
+  745  ls score.txt
+  746  ls -l
+  747  ls score
+  748  bash score
+  749  cat score.txt
+  750  cat score
+  751  clear
+  752  bash
+  753  sed -E 's/[ \t]+/:/g' score.txt > score2
+  754  sed -E 's/[ \t]+/:/g' score > score2
+  755  cat score2
+  756  bash
+  757  shall
+  758  shell
+  759  basename /usr/include/stdio.j
+  760  od /bin/ls
+  761  mail cslab
+  762  ls/var/mail
+  763  /var/mail
+  764  ls /var/mail
+  765  vi
+  766  mail
+  767  bash
+  768  wget chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner's%20Manual%20-%20English%20.pdf
+  769  ls -l *.pdf
+  770   clear
+  771  wget chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner's%20Manual%20-%20English%20.pdf
+  772   clear
+  773  # 웹사이트에서 PDF 링크 주소를 복사한 후:
+  774  wget https://example.com/document.pdf
+  775  # 다른 이름으로 저장하고 싶다면:
+  776  wget -O mypdf.pdf https://example.com/document.pdf
+  777  # 다운로드 확인
+  778  ls -l *.pdf
+  779  clear
+  780  bash
+  781  clear
+  782  bash
+  783  clear
+  784  clear chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner's%20Manual%20-%20English%20.pcledf
+  785  clear
+  786  clear
+  787   clear
+  788  wget https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner's%20Manual%20-%20English%20.pdf
+  789  ls -l *.pdf
+  790  traceroute google.com
+  791  clear
+  792  sudo apt update
+  793  touch test_file.txt
+  794  scp test_file.txt $u21240628@localhost:/tmp/
+  795  bash
+  796  clear
+  797  wget https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
+  798  clear
+  799  od -c dummy.pdf | head -n 5
+  800  ls -l *.pdf
+  801  ls -l dummy.pdf
+  802  clear
+  803  touch test_file.txt
+  804  scp test_file.txt $USER@localhost;/tmp/
+  805  clear
+  806  touch test_file.txt
+  807  scp test_file.txt $USER@localhost:/tmp/
+  808  clear
+  809  u21240628 -I
+  810  hostname -I
+  811  clear
+  812  hostname -I
+  813  clear
+  814  bash
+  815  git
+  816  git config --global user.name "u21240628"
+  817  git config --global user.email notbescared@yonsei.ac.kr
+  818  git config --list
+  819  shall
+  820  shell
+  821  git status
+  822  echo $ps1
+  823  history > history.txt

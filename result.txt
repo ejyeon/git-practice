@@ -1,0 +1,15 @@
+5896d33 update from personal PC
+c72688c 3rd update: final modify
+2173bef 2nd update: add readme.txt
+98db93f 1st update: modify hello.py
+7ad1c65 first commit: add hello.py
+print("Hello, Git!")
+print("This is u21240628's first git practice")
+print("--- 1st update by u21240628 ---")
+print("--- 3rd commit by u21240628 ---")
+
+print('--- updated from personal PC ---')
+Repository owner: u21240628
+Class: OpenSource SW & Linux
+origin	git@github.com:ejyeon/git-practice.git (fetch)
+origin	git@github.com:ejyeon/git-practice.git (push)

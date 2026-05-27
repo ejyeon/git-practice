@@ -1,0 +1,38 @@
+#!/bin/sh
+script=`basename $0`          # 실행된 스크립트 이름 저장 (→ "svi")
+
+case $# in                    # 인수의 개수에 따라 분기
+  0)                          # ── 인수가 0개 ──
+    vi ; exit 0               # vi를 그냥 실행하고 종료
+    ;;
+  1)                          # ── 인수가 1개 ──
+    if [ ! -r "$1" -o ! -w "$1" ]   # 읽기 OR 쓰기 권한 없으면
+    then
+      echo "$script: check permission on $1" 1>&2
+      exit 1
+    fi
+    if [ ! -w "." ]           # 현재 디렉토리에 쓰기 불가하면
+    then                      # (백업 파일을 못 만들기 때문)
+      echo "$script: backup cannot be created in the working directory" 1>&2
+      exit 2
+    fi
+    editfile=$1               # 편집할 파일명 저장
+    if [ ! -f "$1" ]          # 보통 파일이 아니면 (디렉토리 등)
+    then
+      echo "$1 is not regular file."
+      exit 1
+    fi
+    ;;
+esac
+
+tempfile=/tmp/$$.$script      # $$ = 현재 프로세스 ID → 유일한 임시파일명
+cp $editfile $tempfile        # 원본을 임시파일에 미리 백업
+
+if vi $editfile               # vi로 편집 실행
+then                          # ── 편집 성공(저장하고 종료) ──
+  mv $tempfile `basename $editfile`.bak   # 임시파일 → .bak으로 이동
+  echo "$script: backup file created"
+else                          # ── 편집 실패(저장 안 하고 종료) ──
+  mv $tempfile editerr        # 임시파일 → editerr로 이동 (원본 보존)
+  echo "$script: edit error - copy of original file is in editerr" 1>&2
+fi
